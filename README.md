@@ -22,7 +22,7 @@ plugin v3.1.3. It povides graphical sections intended for full-width usage.
    ```
 2. Install the package and its dependencies:
    ```bash
-   composer require municipio-lts/wp-plugin-modularity-sections:dev-main
+   composer require municipio-lts/wp-plugin-modularity-sections-2024:dev-main
    ```
 3. Activate the plugin in WordPress.
 4. Activate the module under _Modularity → Options_.
