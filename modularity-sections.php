@@ -30,10 +30,6 @@ define('MODULARITYSECTIONS_CARD_VIEW_PATH', MODULARITYSECTIONS_MODULE_PATH . '/C
 
 load_plugin_textdomain('modularity-sections', false, plugin_basename(dirname(__FILE__)) . '/languages');
 
-// Autoload from plugin
-if (file_exists(MODULARITYSECTIONS_PATH . 'vendor/autoload.php')) {
-    require_once MODULARITYSECTIONS_PATH . 'vendor/autoload.php';
-}
 require_once MODULARITYSECTIONS_PATH . 'Public.php';
 
 // Start application
